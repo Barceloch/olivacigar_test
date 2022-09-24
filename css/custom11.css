@@ -1,0 +1,73 @@
+.banner-image {
+    height: 1200px;
+    background-color: #000;
+    padding: 25px;   
+}
+#card-logo {
+    display: block;
+    width: 280px;
+    height: 300px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+  
+  /*VIDEO*/
+#videoprom {
+    display: block;
+    width: 520px;
+    height: 850px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  /*EXPAND*
+  .cigar-sizes .cigar-item .cigar-wrapper .cigar-ratings-bar {
+    border-bottom: none;
+  }
+  .card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: height 1000ms;
+    border-bottom: none;
+  }
+  
+  @media (max-width: 767px) {
+    .card {
+      left: calc(50% - 20px);
+      transform: translateX(-50%);
+    }
+  }
+  .card.expanded {
+    height: 450px;
+  }
+
+  .text1 {
+    clip-path: polygon(0% 100%, 0 -90%, 50% -5%, 100% -90%, 100% 100%);
+    -webkit-clip-path: polygon(0% 100%, 0 -90%, 50% -5%, 100% -90%, 100% 100%);
+    transition: clip-path 1000ms;
+  }
+  
+  .card.expanded .text1 {
+    clip-path: polygon(0% 100%, 0 -100%, 50% -15%, 100% -100%, 100% 100%);
+    -webkit-clip-path: polygon(0% 100%, 0 -100%, 50% -15%, 100% -100%, 100% 100%);
+  }
+
+  .chevron {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 15px);
+    transform-origin: 50%;
+    transform: rotate(180deg);
+    transition: transform 1000ms;
+  }
+  .card.expanded .chevron {
+    transform: rotate(0deg);
+  }
+
+  .body-text {
+    padding: 0 20px;
+  }
+  */
