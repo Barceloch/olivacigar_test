@@ -42,8 +42,8 @@ const init = (itemc, value) => {
                 //console.log(elem.classList)
             }
             if (d == r ) {
-                elem.scrollIntoView({block: "center"});    
-                elem.classList.toggle('active');            
+                elem.classList.toggle('active');
+                elem.querySelector(".accordion-content").scrollIntoView({block: "center"});                   
                 
             }
         });
