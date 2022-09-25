@@ -41,13 +41,11 @@ const init = (itemc, value) => {
                 //console.log(`The index for ${elem.getElementsByTagName("h3")[0].textContent} is ${d}, day is ${r}`);
                 //console.log(elem.classList)
             }
-            /*
             if (d == r ) {
-                elem.scrollIntoView();    
+                elem.scrollIntoView({block: "center"});    
                 elem.classList.toggle('active');            
                 
             }
-            */
         });
 
         box.forEach(header => {
