@@ -2,17 +2,18 @@ const init = (itemc, value) => {
     // container
     const items = Array.from(document.querySelectorAll(`.${itemc}`))
     
-    const chidden = Array.from(document.querySelectorAll('.c_hidden'))
+    //const chidden = Array.from(document.querySelectorAll('.c_hidden'))
     
     var a = new Date();
     var r = a.getDate();
     var m = a.getMonth();
     console.log(m)
-    
+    /*
     if (r > 1 && m == 10) {   
         chidden[0].classList.remove('c_hidden');        
         
     }
+   */
     
     // item 
     items.forEach((itemc) => {
